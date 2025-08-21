@@ -24,9 +24,6 @@ public class Product {
     private String name;
 
     private Integer price;
-
-    public Product() {
-    }
     
     public Product(ProductRequestDTO data){
         this.setPrice(data.price());
